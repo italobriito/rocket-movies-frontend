@@ -1,0 +1,17 @@
+export default {
+  COLORS: {
+    BACKGROUND: "#1C1B1E",
+    BACKGROUND_SEARCH: "#262529",
+    BACKGROUND_TAG: "#312E38",
+    
+    LIGHT_SALMON: "#FF859B",
+    SALMON: "#FF859B",
+    WHITE: "#FFFFFF",
+
+    GRAY_SEARCH: "#948F99",
+    GRAY_TEXT: "#999591",
+    GRAY_TAG:"#E5E5E5",
+
+  
+  }
+}
