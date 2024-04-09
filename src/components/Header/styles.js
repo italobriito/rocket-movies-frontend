@@ -10,7 +10,7 @@ export const Container = styled.header`
 
   gap: 64px;
   
-  padding: 24px 123px;
+  
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_SEARCH};

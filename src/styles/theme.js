@@ -4,9 +4,10 @@ export default {
     BACKGROUND_SEARCH: "#262529",
     BACKGROUND_TAG: "#312E38",
     
-    LIGHT_SALMON: "#FF859B",
+    LIGHT_SALMON: "#282124",
     SALMON: "#FF859B",
     WHITE: "#FFFFFF",
+    WHITE_TITLE:"#F4EDE8",
 
     GRAY_SEARCH: "#948F99",
     GRAY_TEXT: "#999591",
