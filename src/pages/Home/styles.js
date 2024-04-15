@@ -7,9 +7,6 @@ export const Container = styled.div`
   justify-content: center;
   margin: 0 auto ;
 
-  
-
-
   .titulo-superior{
    display: flex ;
    align-items: center;
@@ -27,8 +24,7 @@ export const Container = styled.div`
       width: 207px;
    }
 
-   
-
+  
   }
 
   .cards{
@@ -38,7 +34,8 @@ export const Container = styled.div`
 
     height: 468px;
     overflow-y: auto;
-  
+
+
   }
 
 `

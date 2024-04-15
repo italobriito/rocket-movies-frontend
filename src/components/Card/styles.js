@@ -11,8 +11,6 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
 
-
-  
  >ul{
   display: flex;
   list-style-type: none;
@@ -21,16 +19,14 @@ export const Container = styled.div`
   svg{
     width: 12px;
     height: 12px;
-    color: ${({theme}) => theme.COLORS.SALMON};
-    
+    color: ${({theme}) => theme.COLORS.SALMON};  
   }
  }
-
+ 
   >h1{
     font-size: 24px;
     font-weight: 700;
-    color: ${({theme}) => theme.COLORS.WHITE_TITLE};
-   
+    color: ${({theme}) => theme.COLORS.WHITE_TITLE};  
   }
 
 
@@ -46,8 +42,6 @@ export const Container = styled.div`
     
     overflow-y: hidden;
     text-overflow: ellipsis;
-
-    
   }
 
  
