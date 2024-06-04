@@ -8,28 +8,28 @@ export const Container = styled.header`
   align-items: center;
   justify-content: center;
 
-  gap: 64px;
-  
-  
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_SEARCH};
 
-  >h1{
-   font-weight: bold;
-   font-size: 24px;
-   color: ${({theme}) => theme.COLORS.SALMON};
-  }
-
   .profile-informations{
+
+    width: 198px;
+    height:68px;
     display: flex;
     align-items: center;
     gap: 9px;
 
     >div{
+      
       display: flex;
       flex-direction: column;
       align-items: flex-end;
+
+      >span{
+        color: ${({theme}) => theme.COLORS.GRAY_SEARCH};
+      }
+       
     }
     
     >img{
@@ -41,8 +41,29 @@ export const Container = styled.header`
   }
 
   .input{
-    width:630px
+    width:730px;
+    height:53px;
   }
 
 `;
+
+export const Content = styled.div`
+  display: flex;
+  width: 1173px;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  
+  
+  
+  >h1{
+
+   font-weight: 700;
+   font-size: 24px;
+   color: ${({theme}) => theme.COLORS.SALMON};
+   
+  }
+
+  
+`
 

@@ -3,30 +3,36 @@ import styled from "styled-components"
 export const Container = styled.div`
   max-width: 100%;
 
-  .content{
-    width:1137px ;
-    margin: 43px auto;
+`
+
+export const Content = styled.div`
+  width:1137px ;
+  margin: 43px auto;
+
+`
+
+export const MovieInformations = styled.section`
+
+  h1{
+    font-size: 36px;
+    font-weight: 500;
+    color: ${({theme}) => theme.COLORS.WHITE_TITLE};
+
+    margin-top: 24px;
+    margin-bottom: 40px;
   }
 
- 
-  .movie-informations{
+`
 
-    h1{
-      font-size: 36px;
-      font-weight: 500;
-      color: ${({theme}) => theme.COLORS.WHITE_TITLE};
+export const Inputs = styled.div`
 
-      margin-top: 24px;
-      margin-bottom: 40px;
-    }
-
-    .inputs{
-      display: flex;
-      gap: 40px;
-      margin-bottom: 40px;
-    }
+  display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
     
-  }
+`
+
+export const Markers = styled.section`
 
   h2{
     font-size: 20px;
@@ -46,16 +52,19 @@ export const Container = styled.div`
     
   }
 
-  .actions-buttons{
-    display: flex;
-    gap: 40px;
 
-    margin-top: 40px;
+`
+export const ActionButtons = styled.div`
 
-    .delete{
-      background-color: ${({theme}) => theme.COLORS.BLACK} ;
-      color: ${({theme}) => theme.COLORS.SALMON};
-    }
+  display: flex;
+  gap: 40px;
+
+  margin-top: 40px;
+
+  .delete{
+    background-color: ${({theme}) => theme.COLORS.BLACK} ;
+    color: ${({theme}) => theme.COLORS.SALMON};
   }
+  
 
 `

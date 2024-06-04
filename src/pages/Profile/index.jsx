@@ -31,13 +31,13 @@ export default function Profile() {
           </label>
         </Avatar>
         <Input
-          placeholder="Nome"
+          placeholder="Italo Diego Brito Parente"
           type="text"
           icon={FiUser}
         />
 
         <Input
-          placeholder="E-mail"
+          placeholder="italobrito.96@outlook.com"
           type="text"
           icon={FiMail}
         />

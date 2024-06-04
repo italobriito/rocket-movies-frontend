@@ -11,9 +11,8 @@ export const Container = styled.div`
 
   border: ${({ theme, isNew }) => isNew ? `2px dashed ${theme.COLORS.GRAY_SEARCH}` : "none"};
 
-  > button { 
-    width:113px;
-    gap:16px;
+  > button {  
+    
     border: none;
     background: none;
   }
@@ -28,13 +27,15 @@ export const Container = styled.div`
   }
 
   > input {
+    
     height: 56px; 
     padding:12px;
+    border: none;
 
     color: ${({ theme }) => theme.COLORS.WHITE};
     background: transparent;
 
-    border: none;
+    
 
     &::placeholder {
       color: ${({ theme }) => theme.COLORS.GRAY_300};

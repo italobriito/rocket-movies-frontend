@@ -12,25 +12,22 @@ export default createGlobalStyle`
     color: ${({ theme }) => theme.COLORS.WHITE};
     
     font-family: "Roboto Slab", serif;
-
-    ::-webkit-scrollbar {
-    width: 8px; 
-   
-    
+  
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
   }
 
-  
   ::-webkit-scrollbar-track {
     background: transparent; 
   }
 
-  
   ::-webkit-scrollbar-thumb {
     background: ${({theme}) => theme.COLORS.SALMON};
-    border-radius: 8px;
+    border-radius: 8px;  
   }
 
-  }
 
   a {
     text-decoration: none;

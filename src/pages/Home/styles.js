@@ -6,36 +6,34 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   margin: 0 auto ;
+ 
+`
 
-  .titulo-superior{
-   display: flex ;
-   align-items: center;
-   justify-content: space-between;
-   padding: 47px 123px 38px;
+export const Title = styled.div`
+  display: flex ;
+  align-items: center;
+  justify-content: space-between;
+  padding: 47px 123px 38px;
 
-   >h1{
-    font-size: 32px;
-    font-weight: 400;
-    color:${({theme}) => theme.COLORS.WHITE}
-   }
-
-
-   >Button{
-      width: 207px;
-   }
-
-  
+  >h1{
+   font-size: 32px;
+   font-weight: 400;
+   color:${({theme}) => theme.COLORS.WHITE}
   }
 
-  .cards{
-    display: flex;
-    flex-direction: column;
-    gap: 24px ;
 
-    height: 468px;
-    overflow-y: auto;
-
-
+  >Button{
+     width: 207px;
   }
 
 `
+ export const Content = styled.div`
+  
+  display: flex;
+  flex-direction: column;
+  gap: 24px ;
+
+  height: 710px;
+  overflow-y: auto;
+  
+ `

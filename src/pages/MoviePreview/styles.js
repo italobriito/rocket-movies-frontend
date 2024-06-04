@@ -1,73 +1,80 @@
 import styled from "styled-components"
 
 export const Container =styled.div`
+
   width: 100%;
   
-  
- .content{
-    width:1137px ;
-    margin: 43px auto;
 
-    >h1{
-     font-weight: 500;
-    }
+`
 
+export const Content = styled.div`
+
+  width:1137px ;
+  margin: 43px auto;
+
+  >h1{
+   font-weight: 500;
   }
 
+  height: 710px;
+  overflow-y: auto;
 
-  .title-movie{
+`
+
+export const TitleMovie = styled.div`
+  
+  display: flex;
+  align-items: center;
+  gap: 19px ;
+  margin-top: 24px;
+
+  >ul{
     display: flex;
-    align-items: center;
-    gap: 19px ;
-    margin-top: 24px;
-
-    >ul{
-      display: flex;
-     list-style-type: none;
-     gap: 10px;
-    }
-
-   svg{
-      width: 20px;
-      height: 20px;
-      color: ${({theme}) => theme.COLORS.SALMON}; 
-    }
-
+   list-style-type: none;
+   gap: 10px;
   }
+
+ svg{
+    width: 20px;
+    height: 20px;
+    color: ${({theme}) => theme.COLORS.SALMON}; 
+  }
+
+`
+
+export const ProfileInformation = styled.div`
   
-  
-  .profile-information{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    gap: 8px;
-    margin-top: 24px;
-    margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  margin-top: 24px;
+  margin-bottom: 40px;
 
-    img{
-      width: 16px;
-      height: 16px;
-      border-radius: 50%;
-    }
-
-    svg{
-      color: ${({theme}) => theme.COLORS.SALMON};
-    } 
-
+  img{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
   }
 
-  .tags{
+  svg{
+    color: ${({theme}) => theme.COLORS.SALMON};
+  } 
 
-    span{
-      background-color: ${({theme}) => theme.COLORS.LIGHT_SALMON};
-    }
-    
-    margin-bottom: 40px;  
+`
+
+export const Tags = styled.div`
+
+  margin-bottom: 40px;  
+
+  >span{
+    background-color: ${({theme}) => theme.COLORS.LIGHT_SALMON};
   }
 
-  p{
+  >p{
     text-align: justify;
     margin-bottom: 28px;  
   }
 
 `
+

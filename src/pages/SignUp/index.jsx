@@ -33,11 +33,11 @@ export default function SignIn() {
           placeholder="Senha"
         />
         
-
         <Button title="Cadastrar"/>
 
        <BackButton
-          Icon={FiArrowLeft} 
+          className="backbutton"
+          icon={FiArrowLeft} 
           title="Voltar para o login" 
         />
       </Form>

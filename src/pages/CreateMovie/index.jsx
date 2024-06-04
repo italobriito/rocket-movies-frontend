@@ -1,6 +1,6 @@
 import {FiArrowLeft} from "react-icons/fi"
 
-import { Container } from "./styles"
+import { Container, Content, MovieInformations, Inputs, Markers, ActionButtons} from "./styles"
 
 import Header from "../../components/Header"
 import BackButton from "../../components/BackButton"
@@ -15,34 +15,33 @@ export default function CreateMovie(){
 
       <Header/>
 
-      <div className="content">
+      <Content>
 
-        
-
+      
         <BackButton
-          Icon={FiArrowLeft}
+          icon={FiArrowLeft}
           title="Voltar"
         />
 
 
-        <section className="movie-informations">
+        <MovieInformations>
 
           <h1>Novo filme</h1>
 
-          <div className="inputs">
+          <Inputs>
             <Input placeholder="Título" />
             <Input placeholder=" Sua nota (de 0 a 5)" />
-          </div>
+          </Inputs>
 
           <Textarea
            placeholder="Observações"
           />
 
-        </section>
+        </MovieInformations>
         
         
 
-        <section>
+        <Markers>
 
           <h2>Marcadores</h2>
           
@@ -54,21 +53,18 @@ export default function CreateMovie(){
           </div>
 
           
-        </section>
+        </Markers>
 
-        <div className="actions-buttons">
+        <ActionButtons>
 
           <Button className="delete" title=" Exclui filme "/>
           <Button title="Salvar alterações"/>
           
 
-        </div>
+        </ActionButtons>
         
-
-
-        
-        
-      </div>
+ 
+      </Content>
 
     </Container>
   )

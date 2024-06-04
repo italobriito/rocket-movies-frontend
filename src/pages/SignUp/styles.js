@@ -51,12 +51,8 @@ export const Form = styled.form`
     margin-bottom: 42px;
  }
 
- >a{
-    font-size: 16px;
-    font-weight: 400;
-    color: ${({theme}) => theme.COLORS.SALMON};
-
-    margin-left:128px;
+ .backbutton{
+    margin-left: 60px;
  }
 
 `

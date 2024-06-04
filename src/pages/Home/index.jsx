@@ -1,4 +1,4 @@
-import {Container} from "./styles"
+import {Container, Title,Content} from "./styles"
 import {FiPlus} from "react-icons/fi"
 
 import Header from "../../components/Header"
@@ -11,25 +11,25 @@ export default function Home() {
 
       <Header/>
 
-      <div  className="titulo-superior">
+      <Title>
 
         <h1> Meus filmes</h1>
         
         <Button 
-        Icon={FiPlus}
+        icon={FiPlus}
         title=" Adicionar filme"
         />
 
-      </div>
+      </Title>
 
-      <div className="cards">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-      </div>
+      <Content>
 
-      
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+
+      </Content>
 
       
     </Container>
