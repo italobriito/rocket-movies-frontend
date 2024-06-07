@@ -50,6 +50,8 @@ export default function CreateMovie(){
             <NoteItem value="React"/>
             <NoteItem isNew placeholder="Novo marcador"/>
 
+            
+
           </div>
 
           

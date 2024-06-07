@@ -1,4 +1,4 @@
-import {FiStar} from "react-icons/fi"
+import {FiStar, FiSun} from "react-icons/fi"
 
 import {Container} from "./styles"
 

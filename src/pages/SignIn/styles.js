@@ -44,6 +44,7 @@ export const Form = styled.form`
  }
 
  >button{
+    padding: 16px 16px;
     font-size: 16px;
     font-weight: 500;
     margin-top: 24px;
