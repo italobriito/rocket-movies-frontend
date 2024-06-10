@@ -1,4 +1,4 @@
-import {Container, Content} from "./styles";
+import {Container, Content, Profile} from "./styles";
 
 import Input from "../Input"
 
@@ -15,16 +15,16 @@ export default function Header(){
         </div>
         
 
-        <div className="profile-informations"> 
+        <Profile to="/profile"> 
 
           <div>
-            <strong>Italo Brito</strong>
+            <p>Italo Brito</p>
             <span>Sair</span>
           </div>
 
           <img src="https://github.com/italobriito.png" alt="Foto do usuário" />
 
-        </div>
+        </Profile>
 
       </Content>
       

@@ -22,8 +22,9 @@ export const Title = styled.div`
   }
 
 
-  >Button{
-     width: 207px;
+  >a{
+    width: 207px;
+    color:${({theme}) => theme.COLORS.BACKGROUND}
   }
 
 `
@@ -33,7 +34,7 @@ export const Title = styled.div`
   flex-direction: column;
   gap: 24px ;
 
-  height: 710px;
+  height: 700px;
   overflow-y: auto;
   
  `

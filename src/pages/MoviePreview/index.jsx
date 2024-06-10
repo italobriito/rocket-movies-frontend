@@ -2,10 +2,11 @@ import {Container,Content, TitleMovie,ProfileInformation, Tags} from "./styles"
 
 import {FiArrowLeft,FiStar, FiClock} from "react-icons/fi"
 
+import { Link } from "react-router-dom"
+
 
 
 import Header from "../../components/Header"
-import BackButton from "../../components/BackButton"
 import Tag from "../../components/Tag"
 
 
@@ -18,10 +19,12 @@ export default function CreateMovie(){
       
       <Content>
 
-        <BackButton 
-          icon={FiArrowLeft}
-          title="Voltar"
-        />
+       <Link to="/" className="link" >
+         <FiArrowLeft/>
+          Voltar 
+        </Link>
+
+
 
         <TitleMovie>
 

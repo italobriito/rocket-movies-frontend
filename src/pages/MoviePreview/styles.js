@@ -19,6 +19,19 @@ export const Content = styled.div`
   height: 710px;
   overflow-y: auto;
 
+  .link{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+    color: ${({theme}) => theme.COLORS.SALMON};
+    
+   svg{
+      width: 16px;
+      height: 16px;
+   }
+  
+  }
 `
 
 export const TitleMovie = styled.div`

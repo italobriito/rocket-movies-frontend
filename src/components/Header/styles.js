@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Container = styled.header`
   width: 100%;
@@ -12,33 +13,7 @@ export const Container = styled.header`
   border-bottom-style: solid;
   border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_SEARCH};
 
-  .profile-informations{
-
-    width: 198px;
-    height:68px;
-    display: flex;
-    align-items: center;
-    gap: 9px;
-
-    >div{
-      
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-
-      >span{
-        color: ${({theme}) => theme.COLORS.GRAY_SEARCH};
-      }
-       
-    }
-    
-    >img{
-      width: 64px;
-      height: 64px;
-      border-radius: 50%; 
-    }
-
-  }
+  
 
   .input{
     width:730px;
@@ -46,6 +21,40 @@ export const Container = styled.header`
   }
 
 `;
+
+export const Profile = styled(Link)`
+
+  width: 198px;
+  height:68px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+
+  >div{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    >p{
+      color: ${({theme}) => theme.COLORS.WHITE_TITLE}
+    }
+
+    >span{
+      color: ${({theme}) => theme.COLORS.GRAY_SEARCH};
+    }
+    
+  }
+
+  >img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%; 
+  }
+
+
+
+`
 
 export const Content = styled.div`
   display: flex;

@@ -51,8 +51,18 @@ export const Form = styled.form`
     margin-bottom: 42px;
  }
 
- .backbutton{
-    margin-left: 60px;
+
+
+ .link{
+  display: flex;
+  align-items: center;
+
+  font-size: 16px;
+  font-weight: 400;
+
+  gap: 8px;
+  margin-left: 75px;
+  color: ${({theme}) => theme.COLORS.SALMON};  
  }
 
 `

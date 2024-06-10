@@ -6,7 +6,7 @@ import Tag from "../Tag"
 
 export default function Card(){
   return(
-    <Container>
+    <Container to="/moviepreview">
 
       
       <h1>Interestellar</h1>

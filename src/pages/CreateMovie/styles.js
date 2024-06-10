@@ -9,6 +9,20 @@ export const Content = styled.div`
   width:1137px ;
   margin: 43px auto;
 
+  .link{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+    color: ${({theme}) => theme.COLORS.SALMON};
+    
+   svg{
+      width: 16px;
+      height: 16px;
+   }
+  
+  }
+
 `
 
 export const MovieInformations = styled.section`
@@ -66,5 +80,8 @@ export const ActionButtons = styled.div`
     color: ${({theme}) => theme.COLORS.SALMON};
   }
   
+  .save{
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TAG};
+  }
 
 `

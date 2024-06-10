@@ -1,9 +1,10 @@
 import {FiArrowLeft} from "react-icons/fi"
 
+import { Link } from "react-router-dom"
+
 import { Container, Content, MovieInformations, Inputs, Markers, ActionButtons} from "./styles"
 
 import Header from "../../components/Header"
-import BackButton from "../../components/BackButton"
 import Input from "../../components/Input"
 import Button from "../../components/Button"
 import Textarea from "../../components/Textarea"
@@ -17,13 +18,12 @@ export default function CreateMovie(){
 
       <Content>
 
+        <Link to="/" className="link" >
+          <FiArrowLeft/>
+          Voltar 
+        </Link>
       
-        <BackButton
-          icon={FiArrowLeft}
-          title="Voltar"
-        />
-
-
+       
         <MovieInformations>
 
           <h1>Novo filme</h1>
@@ -60,7 +60,7 @@ export default function CreateMovie(){
         <ActionButtons>
 
           <Button className="delete" title=" Exclui filme "/>
-          <Button title="Salvar alterações"/>
+          <Button className="save" title="Salvar alterações"/>
           
 
         </ActionButtons>
